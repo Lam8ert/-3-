@@ -6,7 +6,7 @@ public class 依赖倒转原则 {
         com.show();
     }
 }
-class Computer{//1
+class Computer{//123456
     private CPU cpu;//应该是抽象类或者接口  来接收具体类！！！！！！！！！！
     private USB usb;
     public Computer(CPU cpu,USB usb){
